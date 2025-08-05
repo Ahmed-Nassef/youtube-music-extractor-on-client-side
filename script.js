@@ -21,7 +21,7 @@
            // Should not be all the same character or obvious non-video patterns
            !/^(.)\1{10}$/.test(str) &&
            !str.includes('-scope') &&
-           !str.includes('style');
+           !str.includes('style'); // I know, this is dumb
   };
   
   items.forEach((item, index) => {
